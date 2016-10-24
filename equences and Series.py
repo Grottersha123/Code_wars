@@ -21,9 +21,7 @@ def get_score(n):
     # do your magic here
     t = 0
     u = 50
-    tr = []
     for i in range(n):
         t+= u
         u+= 50
-        tr.append(t)
-    return tr
+    return t
